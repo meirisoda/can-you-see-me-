@@ -1,0 +1,20 @@
+1. pink -- #F6B4B3
+	background color: white -- #FFFFFF
+2. orange -- #FFBC80
+	background color: slightpink -- #FFDDDE
+3. red -- #EE2416
+	background color: lightorange -- #FFD29B
+4. blue -- #2C4BE6
+	background color: bluegrey -- #848840
+5. yellow -- #FFEE57
+	background color: sicklygreen -- #E4FEB2
+6. black -- #000000
+	background color: darkred -- #561218
+	background color2: black -- #000000
+7. grey -- #8B8B8B
+	background color: lightgrey -- #CFCFCF
+8. green -- #66D845
+	background color: lightgrey -- #CFCFCF
+	background color2: lightorange -- #FFD1A8
+9. clear
+	background color: 

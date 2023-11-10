@@ -1,0 +1,50 @@
+#box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border: 2px solid black;
+}
+
+#colors-container {
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+
+#red {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#green {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#blue {
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.text {
+  display: none;
+}
+
+.text.visible {
+  display: block;
+}

@@ -1,0 +1,36 @@
+I want to create an interactive website or program (languages I'm okay with are HTML, CSS, JS and C/C+) where you can move a piece of colored glass (200px by 200px square) around with your mouse. I want it to be that you don't have to click and drag the glass to move it around, but for it to be attached to your cursor passively. 
+
+This piece of colored glass will initially be #F6B4B3 (rose pink). I want other colors for the glass to be available after a certain amount of time and for it to not be an automatic color change. I want the color to be available in a sidebar (titled "available lens") so that the user can click on the color to change the color of the looking glass. These available colors will be in 40px by 40px boxes in a list with the color name next to it. This sidebar will be aligned to the top left. Clicking to change the glass color will be the only time the user will have to click the mouse - to change the color. 
+
+I plan on adding certain text elements scattered throughout the page that are hidden initially. Only when you hover the colored glass on top of it the text be readable so that the user is able to read what is written. Only the text included in the glass will be readable, so the entire passage will not be visible on hover. Only what is being hovered over is readable and the user can move the cursor to read. 
+These text elements will have certain color tags so that not all elements will be visible with the inital colored glass. Some elements will only be readable with a certain glass color and certain elements can be read by multiple glass colors.
+
+I want the different background colors according to the glass colors. When the user chooses a new glass color, I want the background to slowly change colors over 2 seconds.  
+I also want different text colors according to the glass color. 
+
+These are the color combinations I want (glass color, background color, text color): 
+1. #F6B4B3, #FFFFFF, #FFFFFF
+2. available after 30 seconds: #FFBC80, #FFDDDE, #FFFFFF
+3. available after 20 seconds after previous: #EE2416, #FFD29B, #000000
+4. available after 15 seconds after previous: #2C4BE5, #848840, #919191
+5. available after 25 seconds after previous: #FFEE57, #E4FEB2, #000000
+6. available after 20 seconds after previous: #000000, #561218 transitioning over 20 seconds to #000000, #D33000 slowly transitioning over 23 seconds to #FFFFFF
+7. available after 40 seconds after previous: #8B8B8B, #CFCFCF, #FFFFFF
+8. available after 50 seconds after previous: #66D845, #CFCFCF transitioning over 15sec to #FFD1A8, #FFFFFF maintained even as background color changed
+9. available after 40 seconds after previous: glass color completely transparent, background colors cycle through all previous background colors but in transition intervals of 3 seconds for a total of 20 seconds and then settle to white, text colors also ccycle through previous text colors in the same transition intervals as the background and then settle into a text color of black. 
+
+When a new color combination is available, the glass color of the new color combination will appear in the sidebar mentioned above. 
+
+When the glass color is changed to number 9 color combination (glass color = transparent), the background and text colors will slowly cycle in 3 second intervals and after a total of 20 seconds of changing, will settle into a background color of white. All text elements previously on the screen will disappear and only one element in the center will remain, in a text color of black.  
+
+
+
+I want the canvas background to be white and all hidden elements (not hidden) to be white, so that it is hidden in the background.
+
+
+I want the available colors to show up in this order: Rose pink will be the inital glass color, no interaction needed; orange is the next color that will be available for users to choose; then blue; then red; then yellow; then black; then grey; then green; then a clear 
+When the user hovers over a hidden element, I want 
+
+
+I want it to be so that you can't see certain elements without the moveable colored glass, but if you hover over it you can see things you haven't seen before. Kind of like if you put red light on a drawing with red and blue ink, you can't see the red parts but you can see the blue parts more clearly. 
+I also want it so that you have more colors for your viewport available after certain amounts of time. I want the colors to be available in this order: rose pink, orange, blue, yellow, black, grey, white, green. 
